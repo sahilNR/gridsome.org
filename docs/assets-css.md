@@ -157,9 +157,10 @@ npm i -D @fullhuman/postcss-purgecss
 
 Then, create a `main.css` file in the root of your `/src` directory and add the following:
 ```css
+/* purgecss start ignore */
 @tailwind base;
-
 @tailwind components;
+/* purgecss end ignore */
 
 @tailwind utilities;
 ```
